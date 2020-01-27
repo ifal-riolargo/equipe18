@@ -1,111 +1,76 @@
 <html>
+<head>
+
+<link href="css/configuracao.css"
+	type="text/css"
+	rel="stylesheet"/>
+</head>
+
+
  <h1> CURSOS E EVENTOS</h1>
 
-<p> Clique sobre o nome do curso/evento para altera-lo, ou selecione atraves do checkbox para deletar.</p>
+<p> Selecione o curso/evento que deseja alterar ou deletar.</p>
 
-<h3>CURSOS DE CERTIFICACAO: </h3>
+<h3>ATUALIZACAO DE CURSOS DE CERTIFICACAO: </h3>
 
 <form>
-<input type="checkbox" name="curso1" value="Curso1"><a href="www.site.com">Fundacao (Aprenda os fundamentos e as melhores praticas do Vaadin)</a><br>
-<input type="checkbox" name="curso2" value="Curso2"><a href="www.site.com">Profissional (Aprenda alguns topicos avancados e se torne um profissional)</a><br>
-<input type="checkbox" name="curso3" value="Curso3"><a href="www.site.com">Criar compontentes personalizados (Aprenda a criar um componente personalizado)</a><br>
-<input type="checkbox" name="curso4" value="Curso4"><a href="www.site.com">Migracao (Aprenda migrar um aplicativo para o Vaadin)</a><br>
+<select> 
+	<option value = "curso0">Selecione o curso</option>
+	<option value = "curso1">Fundacao (Aprenda os fundamentos e as melhores 	praticas do Vaadin)</option>
+	<option value = "curso2">Profissional (Aprenda alguns topicos avancados 	e se torne um profissional)</option>
+	<option value = "curso3">riar compontentes personalizados (Aprenda a 		criar um componente personalizado)</option>
+	<option value = "curso4">Migracao (Aprenda migrar um aplicativo para o 		Vaadin)</option>
+</select>
+
+<br><br><br>
+
+<input type="submit" value="Atualizar">
+<input type="submit" value="Deletar">
 </form>
 	<br>
-	<h3>EVENTOS:</h3>
+	<h3>ATUALIZACAO DE EVENTOS:</h3>
  <form>
-	 <input type="checkbox" name="evento1" value="Evento1"><a href="www.site.com"> Georgia World Congress. 19-02-2020, Atlanta, Georgia, USA. </a>
+	<select>
+	<option value = "curso0">Selecione o evento</option>
+	<option value = "evento1">First American Frameworks Congress. Georgia 		World Congress Center. 19-02-2020, Atlanta, Georgia, USA.
+	</option>
+	</select>	 
 
 <br><br>
+<input type="submit" value="Atualizar">
 <input type="submit" value="Deletar">
 	
 </form>
 
-<h1> Cadastro:</h1>
+<h1> Cadastro de Novos Cursos/Eventos:</h1>
 
 <body>
      <form action="" method="post">
 
-    <p>
-        Nome: <input type="text" name="username"> </p>  </form>
-        <input type="submit" value="Atualizar" > 
-
-      <form action="" method="post">
-
-    <p>
-        Descrição <input type="text" name="username">
-    </p>
-      </form>
-      <input type="submit" value="Atualizar">
-
-       <form>
-
-      <form action="" method="post">
-
-    <p>
-        Nome de Treinadores: <input type="text" name="username">
-    </p>
-      </form>
-      <input type="submit" value="Atualizar">
-
-    <form>
-
-    <form action="" method="post">
-
-      <p>
-      Data inicio:<input type="text" name="username">
-     </p>
-    </form>
-    <input type="submit" value="Atualizar">
-
-    <form>
-
-      <form action="" method="post">
-
-    <p>
-     Data de termino:<input type="text" name="username">
-    </p>
-    </form>
-    <input type="submit" value="Atualizar">
-
-    <form>
-
-        <form action="" method="post">
-  
-     <p>
-     Local:<input type="text" name="username">
-    </p>
-     </form>
-     <input type="submit" value="Atualizar">
-
-     <form action="" method="post">
-
-        <p>
-            Endereço: <input type="text" name="username">
-        </p>
-          </form>
-          <input type="submit" value="Atualizar">
     
+        Nome: <input type="text" name="username"> <br>
 
-     <form action="" method="post">
+        Descrição <input type="text" name="username"><br>
+   
+        Nome de Treinadores: <input type="text" name="username"><br>
+   
+     	Data inicio:<input type="text" name="username"><br>
+   
+     	Data de termino:<input type="text" name="username"><br>
+ 	Local:<input type="text" name="username"><br>
 
-        <p>
-            E-mail:<input type="text" name="username">
-        </p>
-      </form>
-      <input type="submit" value="Atualizar">
+        Endereço: <input type="text" name="username"><br>
+       
+        E-mail:<input type="text" name="username"><br>
+      
+        Telefone: <input type="text" name="username"><br>
 
-      <form action="" method="post">
 
-            <p>
-                Telefone: <input type="text" name="username">
-            </p>
-          </form>
-          <input type="submit" value="Atualizar">
+    <input type="submit" value="Submit">
 
-<p> <a href="www.vaadin.com">Sobre </a>  </p>
+    </form>
 
-<input type="submit" value="Submit">
+
         
 
             
